@@ -1,7 +1,7 @@
 # Number-Guesser
 
 
-![alt text](https://github.com/Sabrincodes/NumGuesser/issues/1)
+(https://github.com/Sabrincodes/NumGuesser/issues/1)
 
 
 
