@@ -1,8 +1,7 @@
 # Number-Guesser
 
 
-https://github.com/Sabrincodes/NumGuesser/issues/1
-
+<img width="1053" alt="numberguesser" src="https://user-images.githubusercontent.com/40807175/44478160-0a6b2080-a5fa-11e8-9604-8051a30b0670.png">
 
 
 Build a game where the user guesses a number between 1 and 100.
