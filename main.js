@@ -9,15 +9,14 @@ var randomNumber = Math.floor(Math.random() * Math.floor(100));
 console.log(randomNumber);
 var minNumber = 1;
 var maxNumber = 100;
-//create min and max variables and assign each to 1 an 100
+
 inputSearchBox.addEventListener('keydown', makeButtonsWork);
 guessButton.addEventListener('click', guessTheNumber);//
 clearButton.addEventListener('click', clearANumber);
 resetButton.addEventListener('click', resetTheScreen);
 
 function makeButtonsWork() {
-  // console.log(randomNumber)
-  if(inputSearchBox.value === '') {//**comparin value to someting else
+  if(inputSearchBox.value === '') {
       guessButton.disabled = true;
       clearButton.disabled = true;
   } else {
@@ -28,9 +27,7 @@ function makeButtonsWork() {
 
 function guessTheNumber(event) {
   event.preventDefault();
-
   resetButton.disabled = false;
-
   var guess = parseInt(inputSearchBox.value);
   console.log('hello')
   number.textContent = guess;
@@ -42,7 +39,30 @@ function guessTheNumber(event) {
     tooHigh.textContent = 'That is too low';
   } else {
     tooHigh.textContent = 'BOOM!'
-    // mixMax()
   }
   clearANumber();
+}
+
+function isNumber(event) {
+  preventDefault(event)
+  console.log('hi')
+  var keycode=event.keycode;
+  if(keycode> 48 && keycode<57){
+     guessTheNumber();
+  } else {
+    console.log('whats a number');
+  }
+  return false;
+}
+
+
+function clearANumber() {
+  inputSearchBox.value = ''  
+}
+  
+
+
+function resetTheScreen() {
+  number.textContent = '';
+tooHigh.textContent = `Pick a number betweer ${minNumber } and ${maxNumber}`;
 }
