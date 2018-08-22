@@ -22,6 +22,65 @@ body {
 .number-title {
   color:#ED458B;
   font-size: 3rem;
+}
 
+.guesser {
+  color:#E6E7E8;
+}
+
+
+h2 {
+  margin-left: 32rem;
+  padding-top: 1rem;
 
 }
+
+/*form area/main*/
+
+.top-buttons {
+  display:flex;
+  justify-content: space-between;
+  /*padding-top:6rem;*/
+}
+
+.guess-btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: #ffffff;
+  display:inline;
+  height: 3rem;
+  margin-left: 31rem;
+  margin-top: 3rem;
+  outline:none;
+  width: 13rem;
+  font-size: 1.5rem;
+}
+
+.clear-btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: #ffffff;
+  display:inline;
+  height: 3rem;
+  margin-right: 28rem;
+  margin-top: 3rem;
+  outline:none;
+  width: 13rem;
+  font-size: 1.5rem;
+
+}
+
+
+.allbtns:hover {
+  background-color: #d0d2d3;
+  border-style:none;
+  cursor: pointer;
+
+}
+
+.allbtns:disabled {
+  background-color: #d0d2d3;
+}
+
+
+
