@@ -14,3 +14,35 @@ inputSearchBox.addEventListener('keydown', makeButtonsWork);
 guessButton.addEventListener('click', guessTheNumber);//
 clearButton.addEventListener('click', clearANumber);
 resetButton.addEventListener('click', resetTheScreen);
+
+function makeButtonsWork() {
+  // console.log(randomNumber)
+  if(inputSearchBox.value === '') {//**comparin value to someting else
+      guessButton.disabled = true;
+      clearButton.disabled = true;
+  } else {
+      guessButton.disabled = false;
+      clearButton.disabled = false;
+  }
+}
+
+function guessTheNumber(event) {
+  event.preventDefault();
+
+  resetButton.disabled = false;
+
+  var guess = parseInt(inputSearchBox.value);
+  console.log('hello')
+  number.textContent = guess;
+  if (guess < minNumber || guess > maxNumber) {
+    tooHigh.textContent = `Pick a number between ${minNumber} and ${maxNumber}`;
+  } else if (guess > randomNumber) {
+    tooHigh.textContent = 'That is too high';
+  } else if( guess < randomNumber){
+    tooHigh.textContent = 'That is too low';
+  } else {
+    tooHigh.textContent = 'BOOM!'
+    // mixMax()
+  }
+  clearANumber();
+}
