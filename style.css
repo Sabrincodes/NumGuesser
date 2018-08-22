@@ -1,0 +1,27 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 'light';
+}
+/*Nav area*/
+.nav{
+  background-color:#404041;
+  height: 4rem;
+  margin: auto;
+  overflow:hidden;
+  padding-bottom: 6rem;
+  width:100%;
+}
+
+/*Main*/
+.number-title {
+  color:#ED458B;
+  font-size: 3rem;
+
+
+}
