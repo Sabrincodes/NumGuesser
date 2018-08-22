@@ -7,7 +7,7 @@ Number Guesser
 Overview
 Build a game where the user guesses a number between 1 and 100.
 
-##Phase One: Basic Requirements
+#Phase One: Basic Requirements
 The application should have the following user interface components:
 
 Zero State:
