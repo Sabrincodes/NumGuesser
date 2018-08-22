@@ -83,4 +83,76 @@ h2 {
 }
 
 
+h1 {
+  color:#ED458B;
+  font-size: 12rem;
+  margin-left: 20rem;
+  }
+
+
+.search-box {
+  display:inline-block;
+  font-size: 2rem;
+  height: 3rem;
+  margin-left: 31rem;
+  margin-top: 3.5rem;
+  outline:none;
+  width: 34%;
+}
+
+input::placeholder {
+  color:#d0d2d3;
+}
+
+h3 {
+  color:#404041;
+  font-weight: 300;
+  margin-left: 36rem;
+}
+
+/**/
+
+.last-guess {
+  color:#404041;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 36rem;
+  margin-top: 4.4rem;
+}
+
+.number {
+  font-size: 15rem;
+  font-weight: 300;
+  margin-left:40rem;
+  margin-left: 35rem;
+  margin-top: -2rem;
+}
+
+.too-high {
+  color:#404041;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 36rem;
+  margin-top: -2.4rem;
+}
+
+.reset-btn {
+  background-color: #929497;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 1.5rem;
+  height: 3rem;
+  margin-left: 28rem;
+  margin-top: 5rem;
+  outline:none;
+  width: 37rem;
+}
+
+.reset-btn:hover {
+  background-color: #eb008b;
+}
+
+.reset-btn:disabled {
+  background-color: #d0d2d3;
+}
 
