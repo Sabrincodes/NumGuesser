@@ -1,5 +1,10 @@
 # Number-Guesser
 
+
+![alt text](https://github.com/Sabrincodes/NumGuesser/issues/1)
+
+
+
 Build a game where the user guesses a number between 1 and 100.
 
 The application should have the following user interface components:
