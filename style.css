@@ -1,3 +1,4 @@
+/*Base*/
 * {
   box-sizing:border-box;
   margin: 0;
@@ -8,8 +9,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 'light';
 }
+
 /*Nav area*/
-.nav{
+.nav {
   background-color:#404041;
   height: 4rem;
   margin: auto;
@@ -18,7 +20,7 @@ body {
   width:100%;
 }
 
-/*Main*/
+/*Header*/
 .number-title {
   color:#ED458B;
   font-size: 3rem;
@@ -28,19 +30,15 @@ body {
   color:#E6E7E8;
 }
 
-
 h2 {
   margin-left: 32rem;
   padding-top: 1rem;
-
 }
 
-/*form area/main*/
-
+/*Main*/
 .top-buttons {
   display:flex;
   justify-content: space-between;
-  /*padding-top:6rem;*/
 }
 
 .guess-btn {
@@ -48,12 +46,12 @@ h2 {
   border-radius: 30px;
   color: #ffffff;
   display:inline;
+  font-size: 1.5rem;
   height: 3rem;
   margin-left: 31rem;
   margin-top: 3rem;
   outline:none;
   width: 13rem;
-  font-size: 1.5rem;
 }
 
 .clear-btn {
@@ -61,34 +59,29 @@ h2 {
   border-radius: 30px;
   color: #ffffff;
   display:inline;
+  font-size: 1.5rem;
   height: 3rem;
   margin-right: 28rem;
   margin-top: 3rem;
   outline:none;
   width: 13rem;
-  font-size: 1.5rem;
-
 }
-
 
 .allbtns:hover {
   background-color: #d0d2d3;
   border-style:none;
   cursor: pointer;
-
 }
 
 .allbtns:disabled {
   background-color: #d0d2d3;
 }
 
-
 h1 {
   color:#ED458B;
   font-size: 12rem;
   margin-left: 20rem;
-  }
-
+}
 
 .search-box {
   display:inline-block;
@@ -110,8 +103,7 @@ h3 {
   margin-left: 36rem;
 }
 
-/**/
-
+/*Game*/
 .last-guess {
   color:#404041;
   font-size: 2rem;
@@ -123,7 +115,6 @@ h3 {
 .number {
   font-size: 15rem;
   font-weight: 300;
-  margin-left:40rem;
   margin-left: 35rem;
   margin-top: -2rem;
 }
@@ -154,5 +145,27 @@ h3 {
 
 .reset-btn:disabled {
   background-color: #d0d2d3;
+}
+
+.min-search {
+  color:black;
+  display:inline-block;
+  height: 1.4rem;
+  margin-left: 31rem;
+  margin-top: 2.5rem;
+  outline:none;
+  width: 12%;
+}
+
+
+.max-search {
+  color:#404041;
+  display:inline-block;
+  float: right;
+  height: 1.4rem;
+  margin-right: 36rem;
+  margin-top: 2.5rem;
+  outline:none;
+  width: 12%;
 }
 
